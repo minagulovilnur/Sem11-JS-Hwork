@@ -1,0 +1,45 @@
+
+@font-face {
+    font-family: 'Lato'; 
+    src: url(./fonts/Lato-Medium.ttf); 
+}
+
+.FeaturedItems{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.CardProduct{
+    background: #F8F8F8;
+}
+
+.titleProduct{
+    margin-top: 25px;
+    margin-bottom: 12.65px;
+    font-weight: 400;
+    font-family: Lato;
+}
+.priceProduct{
+    color: #F16D7F;
+    margin-top: 11px;
+    font-family: Lato;
+}
+.Description{
+    width: 300px;
+    line-height: 16.8px;
+    padding: 16px;
+    font-family: Lato;
+    font-size: 14px;
+}
+
+.Photo{
+    text-align: center;
+    width: 360px;
+    background: #F7E4E2;
+}
+
+.descrProduct{
+    display: flex;
+    text-align: justify;
+}
